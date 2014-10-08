@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.equinox.osgi.runtime_0.0.1.qualifier.jar" id="org.equinox.osgi.runtime" version="0.0.1.qualifier">
+      <category name="Eclipse Equinox Base Runtime"/>
+   </feature>
+   <feature url="features/org.eclipse.osgi.web_1.0.0.qualifier.jar" id="org.eclipse.osgi.web" version="1.0.0.qualifier">
+      <category name="Eclipse Equinox Base Runtime"/>
+   </feature>
+   <feature url="features/org.eclipse.osgi.web.source_1.0.0.qualifier.jar" id="org.eclipse.osgi.web.source" version="1.0.0.qualifier">
+      <category name="Eclipse Equinox Base Runtime"/>
+   </feature>
+   <category-def name="Eclipse Equinox Base Runtime" label="Eclipse Equinox Base Runtime"/>
+</site>

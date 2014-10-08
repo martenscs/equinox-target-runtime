@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>runtime-repository</artifactId>
+	<packaging>eclipse-repository</packaging>
+	<parent>
+		<groupId>org.equinox.osgi.runtime</groupId>
+		<artifactId>runtime-build</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>..</relativePath>
+	</parent>
+	<organization>
+		<name>Eclipse Org</name>
+	</organization>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-p2-repository-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<includeAllDependencies>true</includeAllDependencies>
+					<compress>false</compress>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<name>org.equinox.osgi.runtime</name>
+
+</project>

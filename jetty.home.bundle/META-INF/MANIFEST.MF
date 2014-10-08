@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: jetty.home.bundle
+Bundle-SymbolicName: jetty.home.bundle
+Bundle-Version: 0.1.0.qualifier
+Fragment-Host: org.eclipse.jetty.osgi.boot;bundle-version="8.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
