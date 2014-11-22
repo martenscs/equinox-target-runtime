@@ -15,11 +15,13 @@
 	</properties>
 	<modules>
 
-	<module>../jetty.home.bundle</module>
-	<module>../org.eclipse.osgi.web</module>
-	<module>../org.eclipse.osgi.web.source</module>
-	<module>../org.equinox.osgi.runtime</module>
-	<module>runtime-repository</module>
+		<module>../jetty.home.bundle</module>
+		<module>../org.eclipse.osgi.web</module>
+		<module>../org.eclipse.osgi.web.source</module>
+		<module>../org.apache.felix.webconsole</module>
+		<module>../org.equinox.osgi.runtime</module>
+		<module>runtime-repository</module>
+
 	</modules>
 	<dependencies>
 		<dependency>
@@ -53,6 +55,11 @@
 			<id>eclipse-product</id>
 			<url>http://download.eclipse.org/eclipse/updates/3.8</url>
 			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>karaf-framework</id>
+			<layout>p2</layout>
+			<url>http://p2.martenscs.net/karaf/framework/3.0.1</url>
 		</repository>
 		<repository>
 			<id>guava-osgi</id>
