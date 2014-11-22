@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.eclipse.osgi.web.source"
-      label="Web"
+      label="Web Source"
       version="1.0.0.qualifier">
 
    <description url="http://www.example.com/description">
@@ -15,34 +15,36 @@
    <license url="http://www.example.com/license">
       [Enter License Description here.]
    </license>
-      
+
    <plugin
          id="org.apache.taglibs.standard.glassfish.source"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         
+
    <plugin
          id="org.apache.jasper.glassfish.source"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-   
- <plugin
+
+   <plugin
          id="org.eclipse.equinox.http.registry.source"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
- <plugin
+
+   <plugin
          id="org.eclipse.equinox.http.jetty.source"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
- <plugin
+
+   <plugin
          id="org.eclipse.jetty.ajp.source"
          download-size="0"
          install-size="0"
@@ -112,13 +114,6 @@
          version="0.0.0"
          unpack="false"/>
 
-   <!--plugin
-         id="org.eclipse.jetty.jsp-2.1.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/-->
-
    <plugin
          id="org.eclipse.jetty.osgi.boot.source"
          download-size="0"
@@ -132,13 +127,6 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         
-   <!--<plugin
-         id="org.eclipse.jetty.osgi.equinoxtools.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-       unpack="false"/>-->
 
    <plugin
          id="org.eclipse.jetty.osgi.boot.warurl.source"
@@ -166,7 +154,7 @@
          download-size="0"
          install-size="0"
          version="0.0.0"
-           unpack="false"/>
+         unpack="false"/>
 
    <plugin
          id="org.eclipse.jetty.nested.source"
@@ -251,12 +239,12 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         
+
    <plugin
          id="org.eclipse.equinox.http.servlet.source"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>		 
-		 
+         unpack="false"/>
+
 </feature>
