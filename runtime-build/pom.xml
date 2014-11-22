@@ -20,6 +20,7 @@
 		<module>../org.eclipse.osgi.web.source</module>
 		<module>../org.apache.felix.webconsole</module>
 		<module>../org.equinox.osgi.runtime</module>
+		<module>../org.apache.felix.webconsole.source</module>
 		<module>runtime-repository</module>
 
 	</modules>

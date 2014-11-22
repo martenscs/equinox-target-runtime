@@ -12,5 +12,8 @@
    <feature url="features/org.apache.felix.webconsole_2.0.6.qualifier.jar" id="org.apache.felix.webconsole" version="2.0.6.qualifier">
       <category name="Eclipse Equinox Base Runtime"/>
    </feature>
+   <feature url="features/org.apache.felix.webconsole.source_2.0.6.qualifier.jar" id="org.apache.felix.webconsole.source" version="2.0.6.qualifier">
+      <category name="Eclipse Equinox Base Runtime"/>
+   </feature>
    <category-def name="Eclipse Equinox Base Runtime" label="Eclipse Equinox Base Runtime"/>
 </site>
