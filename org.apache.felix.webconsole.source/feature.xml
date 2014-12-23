@@ -15,7 +15,20 @@
    <license url="http://www.example.com/license">
       [Enter License Description here.]
    </license>
+   <plugin
+         id="org.eclipse.orbit.mongodb.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
+   <plugin
+         id="org.apache.commons.fileupload.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
    <plugin
          id="org.apache.felix.webconsole.plugins.packageadmin.source"
          download-size="0"

@@ -15,7 +15,27 @@
    <license url="http://www.example.com/license">
       [Enter License Description here.]
    </license>
-
+            
+   <plugin
+         id="com.springsource.org.apache.commons.io"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.orbit.mongodb"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+   <plugin
+         id="javax.servlet.jsp.jstl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
    <plugin
          id="org.apache.felix.webconsole.plugins.packageadmin"
          download-size="0"
@@ -25,6 +45,20 @@
 
    <plugin
          id="org.apache.felix.eventadmin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.configadmin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.fileinstall"
          download-size="0"
          install-size="0"
          version="0.0.0"
